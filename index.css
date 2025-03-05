@@ -1,0 +1,208 @@
+/* Add box-sizing to all elements */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column; /* Ensure everything aligns from top to bottom */
+}
+
+/* Keep the header to fill the width of the page */
+.main-header {
+    background-color: black;
+    width: 100%;
+}
+
+/* Optional: Set a max-width for the entire page content if it's too wide on bigger screens */
+.container {
+    max-width: 100vw;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.Cyan-text {
+    color: cyan;
+    font-family: monospace;
+    position: relative;
+}
+
+.White-text {
+    color: white;
+    font-family: monospace;
+    position: relative;
+}
+
+
+.Port-title {
+    font-size: 400%;
+    top: -40px;
+    left: 60px;
+}
+
+.Folio-title {
+    font-size: 250%;
+    top: -119px;
+    left: 175px;
+}
+
+.Home-link {
+    font-size: 200%;
+    top: -183px;
+    left: 400px;
+    text-decoration: none;
+}
+
+.About-link {
+    font-size: 200%;
+    top: -183px;
+    left: 450px;
+    text-decoration: none;
+}
+
+.Projects-link {
+    font-size: 200%;
+    top: -183px;
+    left: 500px;
+    text-decoration: none;
+}
+
+.Contact-link {
+    font-size: 200%;
+    top: -183px;
+    left: 550px;
+    text-decoration: none;
+}
+
+.Home-link:hover {
+    color: grey;
+}
+
+.Projects-link:hover {
+    color: grey;
+}
+
+.About-link:hover {
+    color: darkcyan;
+}
+
+.Contact-link:hover {
+    color: darkcyan;
+}
+
+.Intro-text {
+    font-size: 170%;
+    left: 60px;
+    top: -40px;
+}
+
+.First-name {
+    font-size: 450%;
+    left: 60px;
+    top: -70px;
+}
+
+.Second-name {
+    font-size: 450%;
+    top: -178px;
+    left: 305px;
+}
+
+.Student-white {
+    font-size: 170%;
+    left: 60px;
+    top: -210px;
+
+}
+
+.Student-cyan {
+    font-size: 170%;
+    left: 130px;
+    top: -250px;
+}
+
+.Circle {
+    z-index: -1;
+    width: 50px;
+    height: 50px;
+    background-color: cyan;
+    border-radius: 50%;
+    position: relative;
+}
+
+.Github-circle {
+    top: -250px;
+    left: 70px;
+}
+
+.LinkedIn-circle {
+    top: -345px;
+    left: 150px;
+}
+
+.Icon {
+    width: 42px;
+    height: 42px;
+    position: relative;
+}
+
+.Github-icon {
+    top: -297px;
+    left: 74px;
+    filter: invert(0);
+}
+
+.LinkedIn-icon {
+    top: -400px;
+    left: 145px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.Download-btn {
+    background-color: cyan;
+    font-family: monospace;
+    font-size: 220%;
+    font-weight: 900;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    position: relative;
+    top: -421px;
+    left: 170px;
+}
+
+.Download-btn:hover {
+    background-color: darkcyan;
+}
+
+.Circle-pic {
+    width: 300px;
+    height: 300px;
+    background-color: cyan;
+    border-radius: 50%;
+    position: relative;
+    top: -1125px;
+    left: 800px;
+    
+}
+
+.Me-photo {
+    z-index: +1;
+    position: relative;
+    top: -745px;
+    left: 780px;
+    height: 450px;
+    clip-path: circle(150px at center);
+}
